@@ -13,7 +13,7 @@
       }
       .imgReg img{
        width: 700px;
-       height: 890px;
+       height: 1px;
         
       }
       .imgReg::before {
