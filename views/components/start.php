@@ -17,6 +17,15 @@
       input, textarea {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
+
+      .div-nav{
+        display: flex;
+        align-items: center
+        
+      }
+      .div-nav p{
+        padding-left: 1%;
+      }
       .navbar-brand{
         font-size: 50px;
       }
@@ -163,7 +172,9 @@
     </form>
   </div>
 </nav>
-
+<div class="div-nav" style="background-color: #E0E0E0;">
+<p>Все цветы</p><p>Доставка</p> <p>Контакты</p> <p>О нас</p>  
+</div>
 
 </div>
 <div class="container">

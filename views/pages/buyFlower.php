@@ -2,7 +2,6 @@
 $view ->component('start')
 
 ?>
-123
 
 
         <?php

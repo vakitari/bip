@@ -25,6 +25,10 @@ $view ->component('start')
             </div>
         </div>
         <div class="imgLog"><img src="views/components/img/flower1.jpg" alt="12312"></div>
+        <div>
+            
+
+        </div>
         </div>
         <?php
 $view ->component('end')
