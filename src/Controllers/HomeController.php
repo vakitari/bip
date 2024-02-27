@@ -9,7 +9,13 @@ class HomeController extends Controller
 
     public function index(): void
     {
-            $this->view('home');
+            $this->view('index');
+
+    }
+
+    public function buy(): void
+    {
+            $this->view('buyFlower');
 
     }
 

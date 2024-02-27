@@ -8,6 +8,7 @@ use App\Kernel\Router\Route;
 
 return[
     Route::get('/bas/home', [HomeController::class, 'index']),
+    Route::get('/bas/buy', [HomeController::class, 'buy']),
     Route::get('/bas/register', [AuthController::class, 'register']),
     Route::get('/bas/login', [AuthController::class, 'login']),
     Route::get('/bas/polise', [PoliseController::class, 'index']),

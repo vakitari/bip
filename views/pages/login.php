@@ -2,6 +2,7 @@
 $view ->component('start')
 
 ?>
+<div class="text">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -22,6 +23,8 @@ $view ->component('start')
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="imgLog"><img src="views/components/img/flower1.jpg" alt="12312"></div>
         </div>
         <?php
 $view ->component('end')
