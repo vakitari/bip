@@ -19,4 +19,11 @@ class HomeController extends Controller
 
     }
 
+    public function basket(): void
+    {
+            $this->view('basket');
+
+    }
+    
+
 }

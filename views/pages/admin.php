@@ -1,9 +1,7 @@
 <?php
-$view ->component('start')
+$view->component('start')
 
 ?>
-
-        <?php
-$view ->component('end')
-
+<?php
+$view->component('end')
 ?>

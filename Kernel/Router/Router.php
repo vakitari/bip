@@ -47,7 +47,9 @@ class Router
 
     public function notFound(): void
     {
-        echo "404 bro";
+        $view = new View();
+
+        $view->page('error');
         exit;
     }
 

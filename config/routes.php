@@ -11,6 +11,8 @@ return[
     Route::get('/bas/buy', [HomeController::class, 'buy']),
     Route::get('/bas/register', [AuthController::class, 'register']),
     Route::get('/bas/login', [AuthController::class, 'login']),
-    Route::get('/bas/polise', [PoliseController::class, 'index']),
     Route::post('/bas/register', [UserController::class, 'index']),
+    Route::get('/bas/profile', [UserController::class, 'profile']),
+    Route::get('/bas/basket', [HomeController::class, 'basket']),
+    
 ];

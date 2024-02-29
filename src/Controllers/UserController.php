@@ -2,15 +2,22 @@
 
 namespace App\Controllers;
 
+use App\Kernel\Controller\Controller;
 use App\Kernel\View\View;
 
-class UserController
+class UserController extends Controller
 {
 
     public function index():void
     {
-        $view = new View();
+        $this->view('register');
 
-        $view->page('register');
     }
+
+    public function profile():void
+    {
+        $this->view('profile');
+
+    }
+   
 }
