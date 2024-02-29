@@ -21,6 +21,16 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
+    .prof-row{
+      display: flex;
+      margin-top: 1%;
+    }
+    .prof-inf{
+      margin-left: 20px;
+      margin-top: 2%;
+
+    }
+
     .prof-container {
         position: relative;
         width: 300px;
@@ -273,7 +283,7 @@
       <p>Доставка</p>
       <p>Контакты</p>
       <p>О нас</p>
-    </div > <label style="margin-right:15%;font-size:20px"><a href="/bas/basket"> Корзина</a>  </label>
+    </div > <label style="margin-right:15%;font-size:20px;display:flex;"><a href="/bas/profile"> профиль</a>  <a href="/bas/basket" style="margin-left: 20px;"> Корзина</a>  </label>
   </div>
 
   </div>

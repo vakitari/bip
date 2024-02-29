@@ -38,8 +38,8 @@ $view->component('start')
                 <p>Эти прекрасные цветы расцветают в самую красивую пору, весной когда еще не весь снег расстаял, прекрастные бутоны этого цветка распускаются и все кайфуют</p>
                 </p>
                 <div class="p_b">
-                    <a href="/bas/buy" class="btn btn-outline-success" type="button" value="купить">купить </a>
-                    <a class="btn btn-outline-success" type="button" value="Подробнее">Подробнее</a>
+                    <a  class="btn btn-outline-success" type="button" value="купить">купить </a>
+                    <a href="/bas/description" class="btn btn-outline-success" type="button" value="Подробнее">Подробнее</a>
                 </div>
             </div>
         <?php

@@ -13,9 +13,9 @@ class HomeController extends Controller
 
     }
 
-    public function buy(): void
+    public function description(): void
     {
-            $this->view('buyFlower');
+            $this->view('description');
 
     }
 
@@ -24,6 +24,10 @@ class HomeController extends Controller
             $this->view('basket');
 
     }
-    
+    public function buyFlow(): void
+    {
+            $this->view('buyFlow');
+
+    }
 
 }
