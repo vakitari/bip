@@ -25,20 +25,44 @@ $view->component('start');
   </div>
 
 </div>
-<script>
-  button1.onclick = function() {
-    <?php 
-      $_SESSION['onc'] = true;
-      ?>
-  };
-   button2.onclick = function() {
-    <?php 
-      $_SESSION['onc2'] = false;
-      ?>
-  };
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#button1").click(function() {
+                var data = {
+                    name: $("#button1").val(),
+                };
+                console.log(data);
+                
+
+                $.ajax({
+                    type: "POST",
+                    url: "/bas/post",
+                    data: data,
+                    success: function(response) {
+                        alert(response);
+                    }
+                });
+            });
+            $("#button2").click(function() {
+                var data = {
+                    name: $("#button2").val(),
+                };
+                console.log(data);
+                
+
+                $.ajax({
+                    type: "POST",
+                    url: "/bas/post",
+                    data: data,
+                    success: function(response) {
+                        alert(response);
+                    }
+                });
+            });
+        });
+    </script>
 <?php
 dd($_SESSION);
-
 $view->component('end')
 ?>

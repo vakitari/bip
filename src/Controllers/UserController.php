@@ -19,5 +19,11 @@ class UserController extends Controller
         $this->view('profile');
 
     }
-   
+
+   public function post():void
+    {
+        $_SESSION['name'] = $_POST['name'];
+        echo $_SESSION['name']; 
+    }
+    
 }
