@@ -22,7 +22,7 @@ $view->component('start')
       </div>
       <div class="p_b">
 
-        <a href="/bas/description" class="btn btn-outline-success" type="button" value="купить">Заказать </a>
+        <a href="/bas/buyFlow" class="btn btn-outline-success" type="button" value="купить">Заказать </a>
         <a class="btn btn-outline-success" type="button" value="Подробнее">Удалить из корзины</a>
       </div>
     </div>

@@ -9,16 +9,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
   <title>Document</title>
+
   <style>
     body, html{
       height: 100%;
       font-family: "Dancing Script", cursive;
+      color: #333333;
     }
    
 
     input,
     textarea {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .payment{
+      margin-top: 20px;
+    }
+    .pay-page{
+      display: flex;
+      justify-content: space-between;
     }
 
     .prof-row{
@@ -69,7 +78,7 @@
     }
 
     .buy-div {
-      background: #D6D6D6;
+      border: outset;
       border-radius: 15px;
       margin-top: 15px;
       padding-top: 10px;
@@ -125,7 +134,8 @@
 
     .prod-div {
       padding: 10px;
-      background: #D9D9D9;
+      border: outset;
+      border-color: seagreen;
       width: 300px;
       margin-left: 50px;
       margin-right: 50px;
@@ -156,7 +166,8 @@
     }
 
     .inf-div {
-      background: #D9D9D9;
+      border: dotted;
+      border-color: seagreen;
       text-align: center;
       height: 300px;
       width: 300px;
@@ -183,7 +194,6 @@
     }
 
     .home-div {
-      background: #D6D6D6;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -263,7 +273,7 @@
   </style>
 </head>
 
-<body style="background-color: #EEEEEE;">
+<body>
 
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
@@ -277,13 +287,13 @@
       </form>
     </div>
   </nav>
-  <div class="div-nav" style="background-color: #E0E0E0;">
+  <div class="div-nav" style="background-color: #FDE7E7 ;">
     <div style="width: 100%; display: flex; margin-left:15%;font-size:20px">
       <p>Все цветы</p>
       <p>Доставка</p>
       <p>Контакты</p>
       <p>О нас</p>
-    </div > <label style="margin-right:15%;font-size:20px;display:flex;"><a href="/bas/profile"> профиль</a>  <a href="/bas/basket" style="margin-left: 20px;"> Корзина</a>  </label>
+    </div > <label style="margin-right:15%;font-size:20px;display:flex;"><a href="/bas/profile" style="color: black;"> профиль</a>  <a href="/bas/basket" style="margin-left: 20px;color: black;"> Корзина</a>  </label>
   </div>
 
   </div>
