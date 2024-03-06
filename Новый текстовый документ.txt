@@ -22,3 +22,9 @@ description - описание
 id
 name - тег
 хз еще что то
+
+таблица history:
+id
+id user - имя покупателя
+id product - название продукта
+timeToBuy - время покупки

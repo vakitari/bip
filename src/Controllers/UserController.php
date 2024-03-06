@@ -22,8 +22,7 @@ class UserController extends Controller
 
    public function post():void
     {
-        $_SESSION['name'] = $_POST['name'];
-        echo $_SESSION['name']; 
+       
     }
     
 }
