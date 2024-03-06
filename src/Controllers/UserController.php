@@ -24,5 +24,11 @@ class UserController extends Controller
     {
        
     }
+
+    public function getAddFlow():void
+    {
+        $this->view('addFlow');
+       
+    }
     
 }

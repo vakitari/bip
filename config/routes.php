@@ -15,6 +15,9 @@ return[
     
     Route::post('/bas/post', [UserController::class, 'post']),
     Route::get('/bas/profile', [UserController::class, 'profile']),
+    Route::get('/bas/addFlow', [UserController::class, 'getAddFlow']),
+    Route::post('/bas/addFlow', [UserController::class, 'addFlow']),
+
 
 
     Route::get('/bas/home', [HomeController::class, 'index']),

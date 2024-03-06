@@ -13,9 +13,10 @@ $view->component('start')
   <p>имя: мария</p>
     <p>майл: щгрвапзпршврывфоаррвпфршщ</p>
     <p>номер: 123123123123123</p>
+<a href="/bas/addFlow" class="btn btn-success">Добавить товар</a>
+
     </div>
 </div>
-
 <div class="prof-product">
   Товары марии
   <hr>

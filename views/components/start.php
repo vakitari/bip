@@ -109,7 +109,6 @@
 
     .buyMini {
       display: flex;
-
     }
 
     .buy-div {
@@ -187,25 +186,25 @@
       border-radius: 15px;
     }
 
-    .modal  {
-      background-color: #fefefe;
-      margin: 9% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 50%;
-    }
-    
-    .buy-div {
-      display: none; /* Скрываем модальное окно по умолчанию */
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0,0,0,0.4);
-    }
+    .modal {
+  display: none; /* Скрываем модальное окно по умолчанию */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 9% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
 
     .close {
       color: #aaa;
