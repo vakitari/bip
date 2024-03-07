@@ -23,6 +23,43 @@
     textarea {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .about-page{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+    .about-page p{
+      font-size: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .about-page div p{
+      text-align: center;
+      width: 70%;
+    }
+    .about-page div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      margin-top: 200px;
+    }
+    .about-page .hel-p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 30px;
+    }
 
     .card-pay form div {
       display: flex;
@@ -187,24 +224,24 @@
     }
 
     .modal {
-  display: none; /* Скрываем модальное окно по умолчанию */
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.4);
-}
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    }
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 9% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-}
+    .modal-content {
+      background-color: #fefefe;
+      margin: 9% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+    }
 
     .close {
       color: #aaa;
@@ -367,9 +404,9 @@
   <div class="div-nav" style="background-color: #FDE7E7 ;">
     <div style="width: 100%; display: flex; margin-left:15%;font-size:20px">
       <p>Все цветы</p>
-      <p>Доставка</p>
-      <p>Контакты</p>
-      <p>О нас</p>
+      <p><a href="/bas/delivery">Доставка</a></p>
+      <p><a href="/bas/contact">Контакты</a></p>
+      <p><a href="/bas/about">О нас</a></p>
     </div> <label style="margin-right:15%;font-size:20px;display:flex;"><a href="/bas/profile" style="color: black;"> профиль</a> <a href="/bas/basket" style="margin-left: 20px;color: black;"> Корзина</a> </label>
   </div>
 

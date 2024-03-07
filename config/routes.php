@@ -17,10 +17,14 @@ return[
     Route::get('/bas/profile', [UserController::class, 'profile']),
     Route::get('/bas/addFlow', [UserController::class, 'getAddFlow']),
     Route::post('/bas/addFlow', [UserController::class, 'addFlow']),
+    Route::get('/bas/delivery', [UserController::class, 'delivery']),
 
 
+    
 
     Route::get('/bas/home', [HomeController::class, 'index']),
+    Route::get('/bas/contact', [HomeController::class, 'contact']),
+    Route::get('/bas/about', [HomeController::class, 'about']),
     Route::get('/bas/description', [HomeController::class, 'description']),
     Route::get('/bas/basket', [HomeController::class, 'basket']),
     Route::get('/bas/buyFlow', [HomeController::class, 'buyFlow']),

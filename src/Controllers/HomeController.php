@@ -29,5 +29,14 @@ class HomeController extends Controller
             $this->view('buyFlow');
 
     }
+    public function about(): void
+    {
+            $this->view('about');
 
+    }
+        public function contact(): void
+    {
+            $this->view('contact');
+
+    }
 }

@@ -20,8 +20,9 @@ class UserController extends Controller
 
     }
 
-   public function post():void
+   public function delivery():void
     {
+        $this->view('delivery');
        
     }
 
@@ -30,5 +31,7 @@ class UserController extends Controller
         $this->view('addFlow');
        
     }
+
+    
     
 }
